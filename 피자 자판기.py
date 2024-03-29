@@ -26,4 +26,4 @@ how_credit = str(input("어떤 수단으로 결제 하실껀가요? 카드(C) or
 if how_credit == "C" :
     print(f"IC카드를 꽂아주세요 총 결제 금액은 {pizzapay}입니다.")
 else :
-    print(f"현금은 카운터에서 결제해주세요 총 결제 금애긍ㄴ {pizzapay}입니다.")
+    print(f"현금은 카운터에서 결제해주세요 총 결제 금액은 {pizzapay}입니다.")
