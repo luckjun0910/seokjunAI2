@@ -19,7 +19,7 @@ while True:
         res = requests.get(url)
         soup = BeautifulSoup(res.content, 'html.parser')
         market_cap = soup.select_one('#content > div.section.trade_compare > table > tbody > tr:nth-child(1) > td:nth-child(2)')
-        toaster.show_toast(f"좋은 아침 이네요. 오늘의 삼성전자주가는 {market_cap.text}원 입니다." duration=5)
+        toaster.show_toast(f"좋은 아침 이네요. 오늘의 삼성전자주가는 {market_cap.text}원 입니다.", duration=5)
         
 
         
